@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="view-port" content="width=device-width initial-scale=1.0"
+    <title>Exercise 1 - Pure HTML Media Player</title>
+  </head>
+  <body>
+    <!--You are given 12 files; 6 videos and 6 audios.Design a website using HTML only which shows these files-->
+    <header>
+      <h1>Pure HTML Media Player</h1>
+    </header>
+    <main>
+      <div>
+        <h2>Videos</h2>
+        <video src="" controls autoplay muted loop poster="1.jpg">Video 1</video>
+        <video src="" controls poster="">Video 2</video>
+        <video src="" controls poster="">Video 3</video>
+        <video src="" controls poster="">Video 4</video>
+        <video src="" controls poster="">Video 5</video>
+        <video src="" controls poster="">Video 6</video>
+      </div>
+      <div>
+        <h2>Audios</h2>
+        <audio src="" controls muted loop>audio 1</audio>
+        <audio src="" controls>audio 2</audio>
+        <audio src="" loop controls>audio 3</audio>
+        <audio src="" controls>audio 4</audio>
+        <audio src="" controls>audio 5</audio>
+        <audio src="" controls>audio 6</audio>
+      </div>
+    </main>
+    <footer>
+      Credits to the creators of the above embedded Media.
+    </footer>
+  </body>
+</html>
